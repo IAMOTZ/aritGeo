@@ -1,0 +1,27 @@
+{
+  "name": "arithmetics",
+  "version": "1.0.0",
+  "description": "An app to tell if a sequence is arithmetic or geometric",
+  "main": "src/main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js",
+    "webpack": "webpack",
+    "bebel": "babel --presets es2015 js/main.js -o build/main.bundle.js"
+  },
+  "author": "Tunmise",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.5.5"
+  }
+}
